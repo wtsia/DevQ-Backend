@@ -1,5 +1,12 @@
-const express = require('express')
+const express = require('express');
+const myController = require('./controllers/myController');
+const parser = require('body-parser');
 
-const app = express()
+//initiate express
+const app = express();
 
-app.listen(3000, () => console.log("Running on port 3000!"))
+app.use(parser.json());
+
+app.use("/", myController);
+
+app.listen(3000, () => console.log("Running on port 3000!"));

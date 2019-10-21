@@ -1,6 +1,10 @@
-const questionSchema = new mongoose.Schema({
-    question: String,
-    answer: String
-  })
+const mongoose = require("../db/connection")
 
-  module.exports = myModel
+const questionSchema = new mongoose.Schema({
+  question: String,
+  answer: String
+})
+
+const questionModel = mongoose.model("question", questionSchema)
+
+module.exports = questionModel
