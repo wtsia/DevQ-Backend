@@ -4,13 +4,13 @@ const questionModel = require('../models/question');
 
 router.get("/", (req, res) => {
     questionModel.find({})
-        .then(myInstances => res.render());
+        .then(myInstances => res.send());
 });
 
 //Get a specific question by id
 router.get('/something/:id', (req, res) => {
     questionModel.findOne({_id: req.params.id})
-        .then(myInstances => res.render())
+        .then(myInstances => res.send())
 })
 
 router.post('/', (req, res) => {
