@@ -9,6 +9,4 @@ What I ran:<br />
 
 What to run:<br />
 <code>npm init</code><br />
-<code>npm install express</code><br />
-<code>npm install mongoose</code><br />
-<code>npm isntall body-parser</code><br />
+<code>npm install express mongoose body-parser</code><br />
