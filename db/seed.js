@@ -1,9 +1,9 @@
-const myModel = require('../models/question')
+const questionModel = require('../models/questionModel')
 const seedData = require("./seeds.json")
 
-myModel.deleteMany({})
+questionModel.deleteMany({})
   .then(() => {
-    return myModel.insertMany(seedData)
+    return questionModel.insertMany(seedData)
   })
   .then(() => {
     process.exit()

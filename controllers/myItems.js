@@ -1,16 +1,16 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const questionModel = require('../models/question');
+const questionModel = require('../models/questionModel');
 
 router.get("/", (req, res) => {
     questionModel.find({})
-        .then(myInstances => res.send());
+        .then(myInstances => res.json({ myInstances }));
 });
 
 //Get a specific question by id
-router.get('/something/:id', (req, res) => {
+router.get('/:id', (req, res) => {
     questionModel.findOne({_id: req.params.id})
-        .then(myInstances => res.send())
+        .then(myInstances => res.json({ myInstances }))
 })
 
 router.post('/', (req, res) => {
