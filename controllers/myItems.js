@@ -4,7 +4,7 @@ const questionModel = require('../models/questionModel');
 
 router.get("/", (req, res) => {
     questionModel.find({})
-        .then(myInstances => res.json({ myInstances }));
+        .then(myInstances => res.json( myInstances ));
 });
 
 //Get a specific question by id
