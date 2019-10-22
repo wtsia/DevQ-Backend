@@ -1,85 +1,149 @@
 [
     {
-    "HTML": 
-        [
-            {
-                "question": "What is HTML?",
-                "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-                "answer": "HyperText Markup Language",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-            },
-            {
-                "question": "What is the difference between HTML elements and tags?",
-                "hint": "What is an element? What is a tag? Where do they differ?",
-                "answer": "First, an element is defined as a section of the web page that is used to communicate. A tag is text enclosed by angled brackets to describe text elements (<tagname>content</tagname>). The difference lies in how an element describes an object of the web page and the tag describes a quality of that object.",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-            },
-            {
-                "question": "What are two types of web storage in HTML5?",
-                "hint": "Where would it be saved?",
-                "answer": "1. Session Saving: This stores current session data and will be automatically deleted when the browser closes. 2. Local Storage: When the current storage window is closed, data is not automatically deleted.",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-            },
-            {
-                "question": "What is a Semantic Element?",
-                "hint": "What does it mean to be semantic?",
-                "answer": "An element that expresses its meaning for the web browser and developer, (e.g. Header, Footer)",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-            }
-        ],
-    "Javascript": 
-        [
-            {
-                "question": "What are JavaScript Data Types?",
-                "hint": "What are the main datatypes?",
-                "answer": "Number, String, Boolean, Object, Undefined",
-                "url": ""
-            },
-            {
-                "question": "Is it possible to break JavaScript Code into several lines?",
-                "hint": "",
-                "answer": "Breaking within a string statement can be done by the use of a backslash at the end of the first line",
-                "url": ""
-            },
-            {
-                "question": "Which company developed JavaScript?",
-                "hint": "Net?",
-                "answer": "Netscape is the software company who developed JavaScript.",
-                "url": ""
-            }
-        ],
-    "CSS": 
-        [
-            {
-                "question": "How can you integrate CSS on a web page?",
-                "hint": "",
-                "answer": "Inline method - It is used to insert style sheets in HTML document, Embedded/Internal method - It is used to add a unique style to a single document Linked/Imported/External method - It is used when you want to make changes on multiple pages.",
-                "url": ""
-            },
-            {
-                "question": "What is CSS?",
-                "hint": "Cascading...",
-                "answer": "Cascading Style Sheet",
-                "url": ""
-            },
-            {
-                "question": "What are the CSS frameworks?",
-                "hint": "",
-                "answer": "Bootstrap, Foundation, Semantic UI, Gumby, Ulkit",
-                "url": ""
-            }
-        ],
-    "React":
-        [
-            {
-
-            }
-        ],
-    "Node": 
-        [
-            {
-
-            }
-        ]
+        "question": "What is HTML?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "HTML"
+    },
+    {
+        "question": "What is the difference between HTML elements and tags?",
+        "hint": "What is an element? What is a tag? Where do they differ?",
+        "answer": "First, an element is defined as a section of the web page that is used to communicate. A tag is text enclosed by angled brackets to describe text elements (<tagname>content</tagname>). The difference lies in how an element describes an object of the web page and the tag describes a quality of that object.",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "HTML"
+    },
+    {
+        "question": "What are two types of web storage in HTML5?",
+        "hint": "Where would it be saved?",
+        "answer": "1. Session Saving: This stores current session data and will be automatically deleted when the browser closes. 2. Local Storage: When the current storage window is closed, data is not automatically deleted.",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "HTML"
+    },
+    {
+        "question": "What are JavaScript Data Types?",
+        "hint": "What are the main datatypes?",
+        "answer": "Number, String, Boolean, Object, Undefined",
+        "url": "",
+        "type": "Javascript"
+    },
+    {
+        "question": "Is it possible to break JavaScript Code into several lines?",
+        "hint": "",
+        "answer": "Breaking within a string statement can be done by the use of a backslash at the end of the first line",
+        "url": "",
+        "type": "Javascript"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "hint": "Net?",
+        "answer": "Netscape is the software company who developed JavaScript.",
+        "url": "",
+        "type": "Javascript"
+    },
+    {
+        "question": "How can you integrate CSS on a web page?",
+        "hint": "",
+        "answer": "Inline method - It is used to insert style sheets in HTML document, Embedded/Internal method - It is used to add a unique style to a single document Linked/Imported/External method - It is used when you want to make changes on multiple pages.",
+        "url": "",
+        "type": "CSS"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "Cascading...",
+        "answer": "Cascading Style Sheet",
+        "url": "",
+        "type": "CSS"
+    },
+    {
+        "question": "What are the CSS frameworks?",
+        "hint": "",
+        "answer": "Bootstrap, Foundation, Semantic UI, Gumby, Ulkit",
+        "url": "",
+        "type": "CSS"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "React"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "React"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "React"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "Node"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "Node"
+    },
+    {
+        "question": "What is CSS?",
+        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+        "answer": "HyperText Markup Language",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "type": "Node"
+    },
+    {
+        "question": "What is React?",
+        "hint": "A library.",
+        "answer": "A JavaScript library for building user interfaces.",
+        "url": "https://reactjs.org/",
+        "type": "React"
+    },
+    {
+        "question": "How are React Elements rendered?",
+        "hint": "An element describes what you want to see on the screen.",
+        "answer": "Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.",
+        "url": "https://reactjs.org/docs/rendering-elements.html",
+        "type": "React"
+    },
+    {
+        "question": "What is a React Component?",
+        "hint": "Conceptually, components are like JavaScript functions.",
+        "answer": "Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.",
+        "url": "https://reactjs.org/docs/components-and-props.html",
+        "type": "React"
+    },
+    {
+        "question": "What is a characteristic of a React Prop?",
+        "hint": "All React components must act like pure functions with respect to their props.",
+        "answer": "Props are Read-Only. Whether you declare a component as a function or a class, it must never modify its own props.",
+        "url": "https://reactjs.org/docs/components-and-props.html",
+        "type": "React"
+    },
+    {
+        "question": "What are three characteristics of a React State?",
+        "hint": "State is similar to props, but it is private and fully controlled by the component.",
+        "answer": "Do not modify state directly. State updates may be asynchronous. State updates are merged",
+        "url": "https://reactjs.org/docs/state-and-lifecycle.html",
+        "type": "React"
+    },
+    {
+        "question": "How does Conditional Rendering work in React?",
+        "hint": "Conditional rendering in React works the same way conditions work in JavaScript.",
+        "answer": "Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.",
+        "url": "https://reactjs.org/docs/conditional-rendering.html",
+        "type": "React"
     }
 ]

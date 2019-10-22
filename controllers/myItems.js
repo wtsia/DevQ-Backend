@@ -1,18 +1,29 @@
 const express = require("express");
 const router = express.Router();
 const questionModel = require('../models/questionModel');
+const seedData = require("../db/seeds.json")
 
+//Handler
+const questionsByType = (type) => {
+    return seedData.filter(question => question.type == type);
+}
+
+// Get
 router.get("/", (req, res) => {
     questionModel.find({})
         .then(myInstances => res.json( myInstances ));
 });
 
-//Get a specific question by id
+router.get("/:type", (req, res) => {
+    res.json(questionsByType(req.params.type));
+});
+
 router.get('/:id', (req, res) => {
     questionModel.findOne({_id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
 
+// Post
 router.post('/', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
@@ -20,6 +31,7 @@ router.post('/', (req, res) => {
     })
 })
 
+// Put
 router.put('/:id', (req, res) => {
     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
@@ -27,6 +39,7 @@ router.put('/:id', (req, res) => {
     })
 })
 
+// Delete
 router.delete('/:id', (req, res) => {
     questionModel.findOneAndRemove({ _id: req.params.id })
         .then(() => {
