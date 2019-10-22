@@ -1,13 +1,23 @@
 # Project3-Backend
 Graphic <br />
 (to be inserted)
-Endpoints by Type:
+Endpoints by Type:<br />
 <code>
 https://immense-citadel-86220.herokuapp.com/HTML<br />
+</code>
+<code>
 https://immense-citadel-86220.herokuapp.com/CSS<br />
+</code>
+<code>
 https://immense-citadel-86220.herokuapp.com/Javascript<br />
+</code>
+<code>
 https://immense-citadel-86220.herokuapp.com/Express<br />
+</code>
+<code>
 https://immense-citadel-86220.herokuapp.com/React<br />
+</code>
+<code>
 https://immense-citadel-86220.herokuapp.com/Node<br />
 </code>
 
