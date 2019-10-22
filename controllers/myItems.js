@@ -20,18 +20,18 @@ router.post('/', (req, res) => {
     })
 })
 
-// router.put('/:id', (req, res) => {
-//     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
-//         .then(myInstances => {
-//         res.redirect('/')
-//     })
-// })
+router.put('/:id', (req, res) => {
+    questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
+        .then(myInstances => {
+        res.redirect('/')
+    })
+})
 
-// router.delete('/:id', (req, res) => {
-//     questionModel.findOneAndRemove({ _id: req.params.id })
-//         .then(() => {
-//         res.redirect('/')
-//     })
-// })
+router.delete('/:id', (req, res) => {
+    questionModel.findOneAndRemove({ _id: req.params.id })
+        .then(() => {
+        res.redirect('/')
+    })
+})
 
 module.exports = router;

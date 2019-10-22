@@ -1,45 +1,85 @@
 [
     {
-        "question": "What is HTML?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "HTML"
-    },
-    {
-        "question": "What is HTML2?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "HTML"
-    },
-    {
-        "question": "What is HTML3?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "HTML"
-    },
-    {
-        "question": "What is Javascript3?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "Javascript"
-    },
-    {
-        "question": "What is CSS?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "CSS"
-    },
-    {
-        "question": "What is CSS?",
-        "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
-        "answer": "HyperText Markup Language",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "type": "CSS"
+    "HTML": 
+        [
+            {
+                "question": "What is HTML?",
+                "hint": "\"Hypertext\" refers to links that connect web pages to one another, either within a single website or between websites.",
+                "answer": "HyperText Markup Language",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            },
+            {
+                "question": "What is the difference between HTML elements and tags?",
+                "hint": "What is an element? What is a tag? Where do they differ?",
+                "answer": "First, an element is defined as a section of the web page that is used to communicate. A tag is text enclosed by angled brackets to describe text elements (<tagname>content</tagname>). The difference lies in how an element describes an object of the web page and the tag describes a quality of that object.",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            },
+            {
+                "question": "What are two types of web storage in HTML5?",
+                "hint": "Where would it be saved?",
+                "answer": "1. Session Saving: This stores current session data and will be automatically deleted when the browser closes. 2. Local Storage: When the current storage window is closed, data is not automatically deleted.",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            },
+            {
+                "question": "What is a Semantic Element?",
+                "hint": "What does it mean to be semantic?",
+                "answer": "An element that expresses its meaning for the web browser and developer, (e.g. Header, Footer)",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+        ],
+    "Javascript": 
+        [
+            {
+                "question": "What are JavaScript Data Types?",
+                "hint": "What are the main datatypes?",
+                "answer": "Number, String, Boolean, Object, Undefined",
+                "url": ""
+            },
+            {
+                "question": "Is it possible to break JavaScript Code into several lines?",
+                "hint": "",
+                "answer": "Breaking within a string statement can be done by the use of a backslash at the end of the first line",
+                "url": ""
+            },
+            {
+                "question": "Which company developed JavaScript?",
+                "hint": "Net?",
+                "answer": "Netscape is the software company who developed JavaScript.",
+                "url": ""
+            }
+        ],
+    "CSS": 
+        [
+            {
+                "question": "How can you integrate CSS on a web page?",
+                "hint": "",
+                "answer": "Inline method - It is used to insert style sheets in HTML document, Embedded/Internal method - It is used to add a unique style to a single document Linked/Imported/External method - It is used when you want to make changes on multiple pages.",
+                "url": ""
+            },
+            {
+                "question": "What is CSS?",
+                "hint": "Cascading...",
+                "answer": "Cascading Style Sheet",
+                "url": ""
+            },
+            {
+                "question": "What are the CSS frameworks?",
+                "hint": "",
+                "answer": "Bootstrap, Foundation, Semantic UI, Gumby, Ulkit",
+                "url": ""
+            }
+        ],
+    "React":
+        [
+            {
+
+            }
+        ],
+    "Node": 
+        [
+            {
+
+            }
+        ]
     }
-    
 ]
