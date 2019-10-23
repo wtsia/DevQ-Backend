@@ -19,7 +19,7 @@ router.get("/:type", (req, res) => {
 });
 
 router.get('/edit/:id', (req, res) => {
-    questionModel.findOne({_id: req.params.id})
+    questionModel.findOne({id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
 
@@ -33,7 +33,7 @@ router.post('/new', (req, res) => {
 
 // Put
 router.put('/edit/:id', (req, res) => {
-    questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
+    questionModel.findOneAndUpdate({ id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
         res.redirect('/edit/:id')
     })
@@ -41,7 +41,7 @@ router.put('/edit/:id', (req, res) => {
 
 // Delete
 router.delete('/edit/:id', (req, res) => {
-    questionModel.findOneAndRemove({ _id: req.params.id })
+    questionModel.findOneAndRemove({ id: req.params.id })
         .then(() => {
         res.redirect('/')
     })
