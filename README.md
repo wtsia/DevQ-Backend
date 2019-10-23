@@ -27,5 +27,5 @@ What I ran:<br />
 
 What to run:<br />
 <code>npm init</code><br />
-<code>npm install express mongoose body-parser</code><br />
+<code>npm install express mongoose body-parser method-override</code><br />
 
