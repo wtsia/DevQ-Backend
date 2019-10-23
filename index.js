@@ -14,7 +14,7 @@ app.use(methodOverride('_method'));
 
 app.use("/", myController);
 
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 4000);
 app.listen(app.get("port"), () => {
   console.log(`✅ PORT: ${app.get("port")} running here`);
 });

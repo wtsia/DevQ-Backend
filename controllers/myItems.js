@@ -35,7 +35,7 @@ router.put('/edit/:id', (req, res) => {
     console.log("ROUTER PUT EDIT/ID", req.body)
     questionModel.findOneAndUpdate({ id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
-        res.redirect(`/edit/${req.params.id}`)
+        res.redirect(`https://localhost:3000/${req.params.type}`)
     })
 })
 
@@ -43,7 +43,7 @@ router.put('/edit/:id', (req, res) => {
 router.delete('/edit/:id', (req, res) => {
     questionModel.findOneAndRemove({ id: req.params.id })
         .then(() => {
-        res.redirect('/')
+        res.redirect(`/`)
     })
 })
 
