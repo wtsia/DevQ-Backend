@@ -19,6 +19,7 @@ router.get("/:type", (req, res) => {
 });
 
 router.get('/edit/:id', (req, res) => {
+    console.log("HELLO ROUTER GET EDIT ID WORKING")
     questionModel.findOne({id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
@@ -33,9 +34,10 @@ router.post('/new', (req, res) => {
 
 // Put
 router.put('/edit/:id', (req, res) => {
+    console.log("ROUTER PUT EDIT/ID", req.body)
     questionModel.findOneAndUpdate({ id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
-        res.redirect('/edit/:id')
+        res.redirect(`/edit/${req.params.id}`)
     })
 })
 
