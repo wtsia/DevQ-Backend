@@ -24,7 +24,7 @@ router.get('/edit/:id', (req, res) => {
 })
 
 // Post
-router.post('/', (req, res) => {
+router.post('/new', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
         res.redirect('/')
@@ -40,7 +40,7 @@ router.put('/edit/:id', (req, res) => {
 })
 
 // Delete
-router.delete('/:id', (req, res) => {
+router.delete('/edit/:id', (req, res) => {
     questionModel.findOneAndRemove({ _id: req.params.id })
         .then(() => {
         res.redirect('/')
