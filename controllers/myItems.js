@@ -35,7 +35,7 @@ router.post('/new', (req, res) => {
 router.put('/edit/:id', (req, res) => {
     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
-        res.redirect('/')
+        res.redirect('/edit/:id')
     })
 })
 
