@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-
 mongoose.Promise = Promise
 
 let mongoURI = "";
