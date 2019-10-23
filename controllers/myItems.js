@@ -18,7 +18,7 @@ router.get("/:type", (req, res) => {
     res.json(questionsByType(req.params.type));
 });
 
-router.get('/:id', (req, res) => {
+router.get('/edit/:id', (req, res) => {
     questionModel.findOne({_id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
@@ -32,7 +32,7 @@ router.post('/', (req, res) => {
 })
 
 // Put
-router.put('/:id', (req, res) => {
+router.put('/edit/:id', (req, res) => {
     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
         res.redirect('/')
