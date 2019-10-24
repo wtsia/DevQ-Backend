@@ -23,7 +23,7 @@ router.get('/edit/:id', (req, res) => {
 })
 
 // Post
-router.post('/', (req, res) => {
+router.post('/new', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
         res.redirect(`http://localhost:3000/`)
