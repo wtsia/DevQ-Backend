@@ -35,7 +35,7 @@ router.put('/edit/:id', (req, res) => {
     console.log("ROUTER PUT EDIT/ID", req.body)
     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
-        res.redirect(`http://localhost:3000/${req.params.type}`)
+        res.redirect(`http://localhost:3000/`)
     })
 })
 
