@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/wtsia/Project3-Backend/issues"
   },
-  "homepage": "https://github.com/wtsia/Project3-Backend#readme",
+  "homepage": "https://wtsia.github.io/DevQ/",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
