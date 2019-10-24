@@ -18,22 +18,22 @@ router.get("/:type", (req, res) => {
 
 router.get('/edit/:id', (req, res) => {
     console.log("HELLO ROUTER GET EDIT ID WORKING")
-    questionModel.findOne({id: req.params.id})
+    questionModel.findOne({_id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
 
 // Post
-router.post('/new', (req, res) => {
+router.post('/', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
-        res.redirect('/')
+        res.redirect(`http://localhost:3000/`)
     })
 })
 
 // Put
 router.put('/edit/:id', (req, res) => {
     console.log("ROUTER PUT EDIT/ID", req.body)
-    questionModel.findOneAndUpdate({ id: req.params.id }, req.body, { new: true })
+    questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
         res.redirect(`http://localhost:3000/`)
     })
@@ -41,9 +41,9 @@ router.put('/edit/:id', (req, res) => {
 
 // Delete
 router.delete('/edit/:id', (req, res) => {
-    questionModel.findOneAndRemove({ id: req.params.id })
+    questionModel.findOneAndRemove({ _id: req.params.id })
         .then(() => {
-        res.redirect(`/`)
+        res.redirect(`http://localhost:3000/`)
     })
 })
 
