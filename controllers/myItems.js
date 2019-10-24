@@ -26,7 +26,7 @@ router.get('/edit/:id', (req, res) => {
 router.post('/', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
-        res.redirect(`http://localhost:3000/${req.params.type}`)
+        res.redirect(`http://localhost:3000/`)
     })
 })
 
