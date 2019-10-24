@@ -17,7 +17,6 @@ router.get("/:type", (req, res) => {
 });
 
 router.get('/edit/:id', (req, res) => {
-    console.log("HELLO ROUTER GET EDIT ID WORKING")
     questionModel.findOne({_id: req.params.id})
         .then(myInstances => res.json( myInstances ))
 })
@@ -26,16 +25,15 @@ router.get('/edit/:id', (req, res) => {
 router.post('/new', (req, res) => {
     questionModel.create(req.body)
         .then(myInstances => {
-        res.redirect(`/`)
+        res.redirect(`https://wtsia.github.io/DevQ/`)
     })
 })
 
 // Put
 router.put('/edit/:id', (req, res) => {
-    console.log("ROUTER PUT EDIT/ID", req.body)
     questionModel.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
         .then(myInstances => {
-        res.redirect(`/`)
+        res.redirect(`https://wtsia.github.io/DevQ/`)
     })
 })
 
@@ -43,7 +41,7 @@ router.put('/edit/:id', (req, res) => {
 router.delete('/edit/:id', (req, res) => {
     questionModel.findOneAndRemove({ _id: req.params.id })
         .then(() => {
-        res.redirect(`/`)
+        res.redirect(`https://wtsia.github.io/DevQ/`)
     })
 })
 
