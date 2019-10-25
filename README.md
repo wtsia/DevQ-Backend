@@ -1,6 +1,6 @@
 # DevQ-Backend
 
-# Description
+## Description
 
 This is the backend for an App called DevQ, and is deployed on heroku. To add additional questions, do so from the front end: https://wtsia.github.io/DevQ/. 
 
@@ -31,11 +31,11 @@ Node:
 <code>https://immense-citadel-86220.herokuapp.com/Node</code>
 
 
-# Backend Tech used:
+## Backend Tech used:
 
 Mongoose, Express, Node. <br /> 
 
-# Local Installation:
+## Local Installation:
 
 Clone down the repo:
 
@@ -45,7 +45,7 @@ Install the packages:
 
 <code>npm install</code>
 
-In two terminals, run:
+In two separate terminals in the root directory, run:
 
 <code>mongod</code>
 
