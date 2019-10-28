@@ -39,7 +39,7 @@ Mongoose, Express, Node. <br />
 
 Clone down the repo:
 
-<code>git clone https://github.com/wtsia/Project3-Backend.git</code>
+<code>git clone https://github.com/wtsia/DevQ-Backend.git</code>
 
 Install the packages:
 
