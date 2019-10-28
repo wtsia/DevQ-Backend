@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the backend for an App called DevQ, and is deployed on heroku. To add additional questions, do so from the front end: https://wtsia.github.io/DevQ/. 
+This is the backend for an App called DevQ, and is deployed on heroku. To add additional questions, read through CONTRIBUTIONS below. To add a non-permanent question to the site: https://wtsia.github.io/DevQ/. 
 
 ## Endpoints by Type:
 
