@@ -6,30 +6,17 @@ This is the backend for an App called DevQ, and is deployed on heroku. To add ad
 
 ## Endpoints by Type:
 
-HTML:
+HTML: https://immense-citadel-86220.herokuapp.com/HTML
 
-<code>https://immense-citadel-86220.herokuapp.com/HTML</code>
+CSS: https://immense-citadel-86220.herokuapp.com/CSS
 
-CSS:
+JavaScript: https://immense-citadel-86220.herokuapp.com/JavaScript
 
-<code>https://immense-citadel-86220.herokuapp.com/CSS</code>
+Express: https://immense-citadel-86220.herokuapp.com/Express
 
-JavaScript:
+React: https://immense-citadel-86220.herokuapp.com/React
 
-<code>https://immense-citadel-86220.herokuapp.com/JavaScript</code>
-
-Express:
-
-<code>https://immense-citadel-86220.herokuapp.com/Express</code>
-
-React:
-
-<code>https://immense-citadel-86220.herokuapp.com/React</code>
-
-Node:
-
-<code>https://immense-citadel-86220.herokuapp.com/Node</code>
-
+Node: https://immense-citadel-86220.herokuapp.com/Node
 
 ## Backend Tech used:
 
