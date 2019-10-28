@@ -48,7 +48,7 @@ Visit the local site at:
 
 # CONTRIBUTION
 
-To submit additional questions to the database, add your question in the array following the format:
+To submit additional questions to the database, add your question to the array in <code>db/seeds.json</code> following the format:
 ```
 {
   "question": "question",
