@@ -59,3 +59,16 @@ Visit the local site at:
 
 <code>localhost:4000</code>
 
+# CONTRIBUTION
+
+To submit additional questions to the database, add your question in the array following the format:
+<code>
+{
+  "question": "question",
+  "hint": "hint",
+  "answer": "answer",
+  "url": "URL",
+  "type": "language"
+}
+</code>
+
