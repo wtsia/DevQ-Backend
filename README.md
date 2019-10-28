@@ -62,13 +62,13 @@ Visit the local site at:
 # CONTRIBUTION
 
 To submit additional questions to the database, add your question in the array following the format:
-<code>
-{<br />
-  "question": "question", <br />
-  "hint": "hint",<br />
-  "answer": "answer",<br />
-  "url": "URL",<br />
-  "type": "language"<br />
-}<br />
-</code>
+```
+{
+  "question": "question",
+  "hint": "hint",
+  "answer": "answer",
+  "url": "URL",
+  "type": "language"
+}
+```
 
