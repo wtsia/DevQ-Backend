@@ -1,5 +1,5 @@
 {
-  "name": "project3-backend",
+  "name": "devq-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wtsia/Project3-Backend.git"
+    "url": "git+https://github.com/wtsia/DevQ-Backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wtsia/Project3-Backend/issues"
+    "url": "https://github.com/wtsia/DevQ-Backend/issues"
   },
-  "homepage": "https://github.com/wtsia/Project3-Backend#readme",
+  "homepage": "https://github.com/wtsia/DevQ-Backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
