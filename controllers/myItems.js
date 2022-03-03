@@ -3,6 +3,13 @@ const router = express.Router();
 const questionModel = require('../models/questionModel');
 const fetch = require("node-fetch");
 
+const seedData = require("../db/seeds.json")
+
+//Handler
+const questionsByType = (type) => {
+    return seedData.filter(question => question.type == type);
+}
+
 // Get
 router.get("/", (req, res) => {
     questionModel.find({})
@@ -10,10 +17,13 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:type", (req, res) => {
+    res.json(questionsByType(req.params.type));
+    /*
     fetch("https://immense-citadel-86220.herokuapp.com/")
     .then(res => res.json())
     .then(res => res.filter(question => question.type == req.params.type))
     .then(result => res.json(result));
+    */
 });
 
 router.get('/edit/:id', (req, res) => {
